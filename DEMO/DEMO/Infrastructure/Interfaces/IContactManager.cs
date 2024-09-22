@@ -63,36 +63,45 @@ namespace DEMO.Logic.Interfaces
         /// This method includes the associated contacts for the retrieved group.
         /// Ensure that the database context is properly configured and available.
         /// </remarks>
-        public Group GetGroupById(int id);
+        public Group GetGroupById(int id, Context context);
 
         /// <summary>
-        /// Validates a name to ensure it is not empty.
+        /// Validates the provided name and returns an appropriate error message if it is invalid.
         /// </summary>
         /// <param name="name">The name to validate.</param>
         /// <returns>
-        /// <c>true</c> if the name is valid; otherwise, <c>false</c>.
+        /// A string containing an error message if the name is invalid; otherwise, an empty string.
+        /// The possible error messages include:
+        /// - "Name Cannot Be Empty." if the name is empty.
+        /// - "Name Too Long." if the name exceeds 100 characters.
         /// </returns>
         /// <remarks>
-        /// If the name is empty, a message box will display an error message indicating
-        /// that the name cannot be empty.
+        /// This method checks if the name is empty or exceeds the maximum length,
+        /// providing feedback as needed. If the name is valid, it returns an empty string.
         /// </remarks>
-        public bool ValidateName(string name);
+        public string ValidateName(string name);
 
 
         /// <summary>
-        /// Validates a phone number to ensure it is not empty and conforms to a specified format.
+        /// Validates the provided phone number to ensure it is not empty and conforms to a specified format.
         /// </summary>
         /// <param name="number">The phone number to validate.</param>
         /// <returns>
-        /// <c>true</c> if the phone number is valid; otherwise, <c>false</c>.
+        /// A string containing an error message if the phone number is invalid; otherwise, an empty string.
+        /// The validation checks for:
+        /// - A maximum length of 20 characters.
+        /// - A pattern that allows digits, an optional leading plus sign (+), and hyphens (-).
         /// </returns>
         /// <remarks>
-        /// The validation checks that the phone number is not empty and matches the pattern,
-        /// which allows digits, an optional leading plus sign (+), and hyphens (-).
-        /// If the validation fails, a message box will display an appropriate error message.
+        /// If the phone number is empty or does not match the required format,
+        /// the method will return an appropriate error message.
         /// </remarks>
-        public bool ValidateNumber(string number);
+        public string ValidateNumber(string number);
 
+
+        public string ValidateEmailAndAddress(string email, string address);
+
+        public string ValidateFields(string name, string number, string email, string address);
 
         /// <summary>
         /// Edits an existing contact in the database with the provided details.
@@ -123,7 +132,7 @@ namespace DEMO.Logic.Interfaces
         /// If any exceptions occur during the addition process, the method will return <c>false</c>.
         /// Ensure that the provided database context is properly configured and available.
         /// </remarks>
-        public bool AddContact(Contact newContact, Context _context);
+        public string AddContact(Contact newContact, Context _context);
 
 
         /// <summary>

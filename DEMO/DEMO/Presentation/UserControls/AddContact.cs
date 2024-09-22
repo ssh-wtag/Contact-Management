@@ -48,12 +48,26 @@ namespace DEMO
         {
             cmservice = new ContactManagerService();
 
+            string name = tbName.Text.Trim();
+            string number = tbNumber.Text.Trim();
+            string email = tbEmail.Text.Trim();
+            string address = tbAddress.Text.Trim();
+
+            var fieldError = cmservice.ValidateFields(name, number, email, address);
+            if (fieldError != string.Empty)
+            {
+                MessageBox.Show(fieldError, "Warning");
+                return;
+            }
+
+            cmservice = new ContactManagerService();
+
             Contact newContact = new Contact
             {
-                Name = tbName.Text.Trim(),
-                Number = tbNumber.Text.Trim(),
-                Email = tbEmail.Text.Trim(),
-                Address = tbAddress.Text.Trim(),
+                Name = name,
+                Number = number,
+                Email = email,
+                Address = address,
                 Groups = new List<Group>()
             };
 
@@ -61,60 +75,33 @@ namespace DEMO
             {
                 foreach (var item in cbGroup.CheckedItems)
                 {
-                    if (item.ToString() == "Family")
-                        newContact.Groups.Add(context.Groups.Find(1));
-                    else if (item.ToString() == "Friend")
-                        newContact.Groups.Add(context.Groups.Find(2));
-                    else if (item.ToString() == "Work")
-                        newContact.Groups.Add(context.Groups.Find(3));
+                    switch (item.ToString())
+                    {
+                        case "Family":
+                            newContact.Groups.Add(cmservice.GetGroupById(1, context));
+                            break;
+                        case "Friend":
+                            newContact.Groups.Add(cmservice.GetGroupById(2, context));
+                            break;
+                        case "Work":
+                            newContact.Groups.Add(cmservice.GetGroupById(3, context));
+                            break;
+                    }
                 }
 
-                if (!cmservice.ValidateName(newContact.Name))
+                var addError = cmservice.AddContact(newContact, context);
+                if (addError != string.Empty)
                 {
-                    MessageBox.Show("Name Cannot be Empty", "Warning");
-                    return;
+                    MessageBox.Show(addError, "Error!");
                 }
-
-                if (!cmservice.ValidateNumber(newContact.Number))
+                else
                 {
-                    MessageBox.Show("Phone Numbers Cannot be Empty and May Only Contain Digits, a Plus Sign (+) at the Start, and Hyphens (-)", "Warning");
-                    return;
+                    MessageBox.Show("Contact Saved Successfully.", "Contact Saved");
+
+                    ContactSaveClicked(sender, e);
+                    Reset();
                 }
-
-                if (newContact.Name.Length > 100)
-                {
-                    MessageBox.Show("Name Too Long", "Warning");
-                    return;
-                }
-
-                if (newContact.Number.Length > 100)
-                {
-                    MessageBox.Show("Number Too Long", "Warning");
-                    return;
-                }
-
-                if (newContact.Email.Length > 150)
-                {
-                    MessageBox.Show("Email Too Long", "Warning");
-                    return;
-                }
-
-                if (newContact.Address.Length > 1000)
-                {
-                    MessageBox.Show("Address Too Long", "Warning");
-                    return;
-                }
-
-                if (!cmservice.AddContact(newContact, context))
-                {
-                    return;
-                }
-
-                MessageBox.Show("Contact Saved Successfully.", "Contact Saved");
-
-                ContactSaveClicked(sender, e);
-                Reset();
-
+                
                 return;
             }
         }

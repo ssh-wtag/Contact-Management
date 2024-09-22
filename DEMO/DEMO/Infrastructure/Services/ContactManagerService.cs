@@ -15,17 +15,17 @@ namespace DEMO.Logic.Services
 {
     public class ContactManagerService : IContactManager
     {
-        public bool AddContact(Contact newContact, Context _context)
+        public string AddContact(Contact newContact, Context _context)
         {
             try
             {
                 _context.Contacts.Add(newContact);
                 _context.SaveChanges();
-                return true;
+                return string.Empty;
             }
             catch (Exception ex)
             {
-                return false;
+                return ex.Message;
             }
         }
 
@@ -90,18 +90,25 @@ namespace DEMO.Logic.Services
             }
         }
 
-        public bool ValidateName(string name)
+        public string ValidateName(string name)
         {
             if (name.IsNullOrEmpty())
             {
-                return false;
+                return "Name Cannot Be Empty.";
+            }
+            if(name.Length > 100)
+            {
+                return "Name Too Long.";
             }
 
-            return true;
+            return string.Empty;
         }
 
-        public bool ValidateNumber(string number)
+        public string ValidateNumber(string number)
         {
+            if (number.Length > 20)
+                return "Number too Long.";
+
             string pattern = "^[+]?(\\d+(-\\d+)*|\\d+)$";
             Regex regex = new Regex(pattern);
 
@@ -109,10 +116,43 @@ namespace DEMO.Logic.Services
 
             if (!match || number.IsNullOrEmpty())
             {
-                return false;
+                return "Phone Numbers Cannot be Empty and May Only Contain Digits, a Plus Sign (+) at the Start, and Hyphens (-).";
             }
 
-            return true;
+            return string.Empty;
+        }
+
+        public string ValidateEmailAndAddress(string email, string address)
+        {
+            if (email.Length > 150)
+                return "Email Length Too Long.";
+            else if (address.Length >= 1000)
+                return "Address Length Too Long.";
+            else
+                return string.Empty;
+        }
+
+        public string ValidateFields(string name, string number, string email, string address)
+        {
+            var nameError = ValidateName(name);
+            if (nameError != string.Empty)
+            {
+                return nameError;
+            }
+
+            var numberError = ValidateNumber(number);
+            if (numberError != string.Empty)
+            {
+                return numberError;
+            }
+
+            var emailAddressError = ValidateEmailAndAddress(email, address);
+            if (emailAddressError != string.Empty)
+            {
+                return emailAddressError;
+            }
+
+            return string.Empty;
         }
 
         public Contact GetContactById(int id)
@@ -128,16 +168,13 @@ namespace DEMO.Logic.Services
             }
         }
 
-        public Domain.Models.Group GetGroupById(int id)
+        public Domain.Models.Group GetGroupById(int id, Context _context)
         {
-            using (var _context = new Context())
-            {
-                Domain.Models.Group? group = _context.Groups
-                .Include(g => g.Contacts)
-                .FirstOrDefault(g => g.GroupId == id);
+            Domain.Models.Group? group = _context.Groups
+            .Include(g => g.Contacts)
+            .FirstOrDefault(g => g.GroupId == id);
 
-                return group;
-            }
+            return group;
         }
 
         public List<Contact> SearchContact(string key)
