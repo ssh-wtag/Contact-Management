@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sadman Shoumik\\Desktop\\DEMO\\DEMO\\DEMO.csproj": {}
+    "C:\\Users\\Sadman Shoumik\\Desktop\\Contact-Management\\DEMO\\DEMO\\DEMO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sadman Shoumik\\Desktop\\DEMO\\DEMO\\DEMO.csproj": {
+    "C:\\Users\\Sadman Shoumik\\Desktop\\Contact-Management\\DEMO\\DEMO\\DEMO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sadman Shoumik\\Desktop\\DEMO\\DEMO\\DEMO.csproj",
+        "projectUniqueName": "C:\\Users\\Sadman Shoumik\\Desktop\\Contact-Management\\DEMO\\DEMO\\DEMO.csproj",
         "projectName": "DEMO",
-        "projectPath": "C:\\Users\\Sadman Shoumik\\Desktop\\DEMO\\DEMO\\DEMO.csproj",
+        "projectPath": "C:\\Users\\Sadman Shoumik\\Desktop\\Contact-Management\\DEMO\\DEMO\\DEMO.csproj",
         "packagesPath": "C:\\Users\\Sadman Shoumik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sadman Shoumik\\Desktop\\DEMO\\DEMO\\obj\\",
+        "outputPath": "C:\\Users\\Sadman Shoumik\\Desktop\\Contact-Management\\DEMO\\DEMO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

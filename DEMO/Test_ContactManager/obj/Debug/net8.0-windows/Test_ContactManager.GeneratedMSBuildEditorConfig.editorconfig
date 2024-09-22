@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Test_ContactManager
-build_property.ProjectDir = C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\
+build_property.ProjectDir = C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
