@@ -1,0 +1,631 @@
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\CoverletSourceRootsMapping_Test_ContactManager
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\testhost.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\DEMO.deps.json
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\DEMO.runtimeconfig.json
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\DEMO.exe
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\testhost.exe
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Test_ContactManager.deps.json
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Test_ContactManager.runtimeconfig.json
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Test_ContactManager.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Test_ContactManager.pdb
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Identity.Client.NativeInterop.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.TestPlatform.Utilities.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\NuGet.Frameworks.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.abstractions.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.assert.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.core.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.execution.dotnet.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\msalruntime.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\DEMO.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\DEMO.pdb
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.csproj.AssemblyReference.cache
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.AssemblyInfoInputs.cache
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.AssemblyInfo.cs
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.csproj.CoreCompileInputs.cache
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_Con.E5DD18AB.Up2Date
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\refint\Test_ContactManager.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.pdb
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.genruntimeconfig.cache
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\ref\Test_ContactManager.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Castle.Core.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Moq.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\AutoFixture.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\AutoFixture.AutoMoq.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Fare.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\CoverletSourceRootsMapping_Test_ContactManager
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\testhost.exe
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\testhost.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\DEMO.deps.json
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\DEMO.runtimeconfig.json
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\DEMO.exe
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Test_ContactManager.deps.json
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Test_ContactManager.runtimeconfig.json
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Test_ContactManager.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Test_ContactManager.pdb
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\AutoFixture.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\AutoFixture.AutoMoq.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Castle.Core.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Fare.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Identity.Client.NativeInterop.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.TestPlatform.Utilities.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Moq.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\NuGet.Frameworks.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.abstractions.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.assert.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.core.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.execution.dotnet.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\msalruntime.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\DEMO.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\DEMO.pdb
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.csproj.AssemblyReference.cache
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.AssemblyInfoInputs.cache
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.AssemblyInfo.cs
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.csproj.CoreCompileInputs.cache
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_Con.E5DD18AB.Up2Date
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\refint\Test_ContactManager.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.pdb
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.genruntimeconfig.cache
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\ref\Test_ContactManager.dll
+C:\Users\Shoumik\Downloads\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\CoverletSourceRootsMapping_Test_ContactManager
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\DEMO.deps.json
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\DEMO.runtimeconfig.json
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\testhost.exe
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\testhost.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.runner.reporters.netcoreapp10.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.runner.utility.netcoreapp10.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\DEMO.exe
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Test_ContactManager.deps.json
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Test_ContactManager.runtimeconfig.json
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Test_ContactManager.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Test_ContactManager.pdb
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\AutoFixture.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\AutoFixture.AutoMoq.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Azure.Core.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Azure.Identity.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Castle.Core.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Fare.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Identity.Client.NativeInterop.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.TestPlatform.CoreUtilities.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.TestPlatform.PlatformAbstractions.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.TestPlatform.CommunicationUtilities.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.TestPlatform.CrossPlatEngine.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.TestPlatform.Utilities.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.VisualStudio.TestPlatform.Common.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Moq.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\NuGet.Frameworks.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\System.Memory.Data.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.abstractions.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.assert.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.core.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.execution.dotnet.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\msalruntime.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\DEMO.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\DEMO.pdb
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.csproj.AssemblyReference.cache
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.GeneratedMSBuildEditorConfig.editorconfig
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.AssemblyInfoInputs.cache
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.AssemblyInfo.cs
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.csproj.CoreCompileInputs.cache
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_Con.E5DD18AB.Up2Date
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\refint\Test_ContactManager.dll
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.pdb
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.genruntimeconfig.cache
+D:\Solutions\DEMO FINAL (With Test)\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\ref\Test_ContactManager.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\CoverletSourceRootsMapping_Test_ContactManager
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\DEMO.deps.json
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\DEMO.runtimeconfig.json
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\DEMO.exe
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\testhost.exe
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\testhost.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Test_ContactManager.deps.json
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Test_ContactManager.runtimeconfig.json
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Test_ContactManager.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Test_ContactManager.pdb
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\AutoFixture.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\AutoFixture.AutoMoq.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Castle.Core.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Fare.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Identity.Client.NativeInterop.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.TestPlatform.Utilities.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Moq.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\NuGet.Frameworks.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.abstractions.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.assert.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.core.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.execution.dotnet.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\msalruntime.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\DEMO.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\DEMO.pdb
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.csproj.AssemblyReference.cache
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.AssemblyInfoInputs.cache
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.AssemblyInfo.cs
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.csproj.CoreCompileInputs.cache
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_Con.E5DD18AB.Up2Date
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\refint\Test_ContactManager.dll
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.pdb
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.genruntimeconfig.cache
+C:\Users\Sadman Shoumik\Desktop\DEMO FINAL (With Test Temp)\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\ref\Test_ContactManager.dll
