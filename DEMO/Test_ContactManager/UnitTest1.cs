@@ -4,6 +4,7 @@ using DEMO.Infrastructure.Data;
 using DEMO.Logic.Services;
 using Microsoft.EntityFrameworkCore;
 using Moq;
+using System.Windows.Forms;
 using Xunit;
 
 namespace Test_ContactManager
@@ -153,6 +154,33 @@ namespace Test_ContactManager
             Assert.Equal(group.GroupId, retrievedContact.Groups.First().GroupId);
         }
 
+        [Fact]
+        public void AddDuplicateContact()
+        {
+            Init();
+
+            var newContact = fixture.Create<Contact>();
+
+            context.Contacts.Add(newContact);
+            context.SaveChanges();
+
+            var duplicateContact = context.Contacts.Find(newContact.ContactId);
+            Exception exception = null;
+
+            try
+            {
+                context.Contacts.Add(duplicateContact);
+                context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                exception = ex;
+            }
+
+            Assert.NotNull(exception);
+            Assert.IsType<ArgumentException>(exception);
+        }
+
         #endregion
 
         #region Input Validation
@@ -176,9 +204,9 @@ namespace Test_ContactManager
             Init();
 
             cmservice = new ContactManagerService();
-            bool result = cmservice.ValidateNumber(number);
+            string result = cmservice.ValidateNumber(number);
 
-            Assert.False(result, $"{number} is not a valid phone number.");
+            Assert.NotEqual(result, string.Empty);
         }
 
         //Test Valid Phone Numbers
@@ -189,7 +217,7 @@ namespace Test_ContactManager
         [InlineData("123-123213")]
         [InlineData("63-45-63")]
         [InlineData("4-324-23")]
-        [InlineData("32-4-532-45-234-23-423-4")]
+        [InlineData("32-4-532-45-234")]
         [InlineData("+1234122341234")]
         [InlineData("2134132134")]
         [InlineData("+234234")]
@@ -200,9 +228,9 @@ namespace Test_ContactManager
             Init();
 
             cmservice = new ContactManagerService();
-            bool result = cmservice.ValidateNumber(number);
+            string result = cmservice.ValidateNumber(number);
 
-            Assert.True(result, $"{number} is a valid phone number.");
+            Assert.Equal(result, string.Empty);
         }
 
         //Test for Empty Name or Phone Number
@@ -215,10 +243,10 @@ namespace Test_ContactManager
             Init();
 
             cmservice = new ContactManagerService();
-            bool result1 = cmservice.ValidateName(name);
-            bool result2 = cmservice.ValidateNumber(number);
+            string result1 = cmservice.ValidateName(name);
+            string result2 = cmservice.ValidateNumber(number);
 
-            Assert.False(result1 & result2, $"Name or Phone Number Cannot Be Empty.");
+            Assert.NotEqual(result1 + result2, string.Empty);
         }
 
         #endregion
