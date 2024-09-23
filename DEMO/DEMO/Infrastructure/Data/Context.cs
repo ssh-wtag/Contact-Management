@@ -1,5 +1,7 @@
 ﻿using DEMO.Domain.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using System.IO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +15,23 @@ namespace DEMO.Infrastructure.Data
         public DbSet<Contact> Contacts { get; set; }
         public DbSet<Group> Groups { get; set; }
 
-        public Context() : base() { }
+        private readonly string _connectionString;
+
+        public Context() : base()
+        {
+            _connectionString = LoadConnectionString();
+        }
+
+        private string LoadConnectionString()
+        {
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("AppSettings.json", optional: false, reloadOnChange: true);
+
+            IConfiguration configuration = builder.Build();
+
+            return configuration.GetConnectionString("DefaultConnection");
+        }
 
         public Context(DbContextOptions<Context> options) : base(options) { }
 
@@ -21,7 +39,7 @@ namespace DEMO.Infrastructure.Data
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer(@"Data Source=SADMAN;Initial Catalog=DEMO;Integrated Security=True;TrustServerCertificate=True;")
+                optionsBuilder.UseSqlServer(_connectionString)
                               .UseLazyLoadingProxies();
             }
         }

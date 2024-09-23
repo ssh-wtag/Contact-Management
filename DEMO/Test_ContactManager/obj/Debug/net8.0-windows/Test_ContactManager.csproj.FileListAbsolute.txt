@@ -641,7 +641,6 @@ C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\obj\
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.pdb
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\testhost.exe
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\testhost.dll
-C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.runner.reporters.netcoreapp10.dll
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.runner.utility.netcoreapp10.dll
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\DEMO.deps.json
@@ -697,7 +696,6 @@ C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Moq.dll
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
-C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\NuGet.Frameworks.dll
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\System.Memory.Data.dll
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
@@ -788,3 +786,13 @@ C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_Con.E5DD18AB.Up2Date
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.genruntimeconfig.cache
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\ref\Test_ContactManager.dll
+C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\.msCoverageSourceRootsMapping_Test_ContactManager
+C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.runner.visualstudio.testadapter.dll
+C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\AppSettings.json
+C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
