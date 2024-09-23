@@ -6,9 +6,11 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 namespace DEMO
 {
@@ -106,60 +108,33 @@ namespace DEMO
 
         private void EditContact()
         {
+            string name = gridViewDetails.Rows[0].Cells[1].Value.ToString().Trim();
+            string number = gridViewDetails.Rows[1].Cells[1].Value.ToString().Trim();
+            string email = gridViewDetails.Rows[2].Cells[1].Value.ToString().Trim();
+            string address = gridViewDetails.Rows[3].Cells[1].Value.ToString().Trim();
+
+            var fieldError = cmservice.ValidateFields(name, number, email, address);
+            if (fieldError != string.Empty)
+            {
+                MessageBox.Show(fieldError, "Warning");
+
+                gridViewDetails.Rows[0].Cells[1].Value = cmservice.GetContactById(CurrentId).Name;
+                gridViewDetails.Rows[1].Cells[1].Value = cmservice.GetContactById(CurrentId).Number;
+
+                return;
+            }
+
             Contact editedContact = new();
             editedContact.ContactId = CurrentId;
-            editedContact.Name = gridViewDetails.Rows[0].Cells[1].Value.ToString().Trim();
-            editedContact.Number = gridViewDetails.Rows[1].Cells[1].Value.ToString().Trim();
-            editedContact.Email = gridViewDetails.Rows[2].Cells[1].Value.ToString().Trim();
-            editedContact.Address = gridViewDetails.Rows[3].Cells[1].Value.ToString().Trim();
-
-            if(editedContact.Name.Length > 100)
-            {
-                MessageBox.Show("Name Too Long", "Warning");
-                gridViewDetails.Rows[0].Cells[1].Value = cmservice.GetContactById(CurrentId).Name;
-                return;
-            }
-
-            if (!cmservice.ValidateName(editedContact.Name))
-            {
-                MessageBox.Show("Name Cannot be Empty", "Warning");
-                gridViewDetails.Rows[0].Cells[1].Value = cmservice.GetContactById(CurrentId).Name;
-                return;
-            }
-
-            if (editedContact.Number.Length > 100)
-            {
-                MessageBox.Show("Number Too Long", "Warning");
-                gridViewDetails.Rows[0].Cells[1].Value = cmservice.GetContactById(CurrentId).Name;
-                return;
-            }
-
-            if (!cmservice.ValidateNumber(editedContact.Number))
-            {
-                MessageBox.Show("Phone Numbers Cannot be Empty and May Only Contain Digits, a Plus Sign (+) at the Start, and Hyphens (-)", "Warning");
-                gridViewDetails.Rows[1].Cells[1].Value = cmservice.GetContactById(CurrentId).Number;
-                return;
-            }
-
-            if (editedContact.Email.Length > 150)
-            {
-                MessageBox.Show("Email Too Long", "Warning");
-                gridViewDetails.Rows[0].Cells[1].Value = cmservice.GetContactById(CurrentId).Name;
-                return;
-            }
-
-            if (editedContact.Address.Length > 1000)
-            {
-                MessageBox.Show("Address Too Long", "Warning");
-                gridViewDetails.Rows[0].Cells[1].Value = cmservice.GetContactById(CurrentId).Name;
-                return;
-            }
-
-            Group family = new Group(); family.GroupId = 1; family.GroupName = "Family";
-            Group friend = new Group(); friend.GroupId = 2; friend.GroupName = "Friend";
-            Group work = new Group(); work.GroupId = 3; work.GroupName = "Work";
-
+            editedContact.Name = name;
+            editedContact.Number = number;
+            editedContact.Email = email;
+            editedContact.Address = address;
             editedContact.Groups = new List<Group>();
+
+            Group family = new Group { GroupId = 1, GroupName = "Family" };
+            Group friend = new Group { GroupId = 2, GroupName = "Friend" };
+            Group work = new Group { GroupId = 3, GroupName = "Work" };
 
             if (cbFamily.Checked)
                 editedContact.Groups.Add(family);
