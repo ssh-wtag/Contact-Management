@@ -1,5 +1,6 @@
 ﻿using DEMO.Domain.Models;
 using DEMO.Infrastructure.Data;
+using DEMO.Infrastructure.Services;
 using DEMO.Logic.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
@@ -90,69 +91,15 @@ namespace DEMO.Logic.Services
             }
         }
 
-        public string ValidateName(string name)
+        public List<Contact> SearchContact(string key)
         {
-            if (name.IsNullOrEmpty())
+            using (var _context = new Context())
             {
-                return "Name Cannot Be Empty.";
+                return _context.Contacts
+                .Where(c => c.Name.ToLower().Contains(key) || c.Number.Contains(key) || c.Email.Contains(key))
+                .OrderBy(c => c.Name)
+                .ToList();
             }
-            if(name.Length > 100)
-            {
-                return "Name Too Long.";
-            }
-
-            return string.Empty;
-        }
-
-        public string ValidateNumber(string number)
-        {
-            if (number.Length > 20)
-                return "Number too Long.";
-
-            string pattern = "^[+]?(\\d+(-\\d+)*|\\d+)$";
-            Regex regex = new Regex(pattern);
-
-            bool match = regex.IsMatch(number);
-
-            if (!match || number.IsNullOrEmpty())
-            {
-                return "Phone Numbers Cannot be Empty and May Only Contain Digits, a Plus Sign (+) at the Start, and Hyphens (-).";
-            }
-
-            return string.Empty;
-        }
-
-        public string ValidateEmailAndAddress(string email, string address)
-        {
-            if (email.Length > 150)
-                return "Email Length Too Long.";
-            else if (address.Length >= 1000)
-                return "Address Length Too Long.";
-            else
-                return string.Empty;
-        }
-
-        public string ValidateFields(string name, string number, string email, string address)
-        {
-            var nameError = ValidateName(name);
-            if (nameError != string.Empty)
-            {
-                return nameError;
-            }
-
-            var numberError = ValidateNumber(number);
-            if (numberError != string.Empty)
-            {
-                return numberError;
-            }
-
-            var emailAddressError = ValidateEmailAndAddress(email, address);
-            if (emailAddressError != string.Empty)
-            {
-                return emailAddressError;
-            }
-
-            return string.Empty;
         }
 
         public Contact GetContactById(int id)
@@ -177,17 +124,6 @@ namespace DEMO.Logic.Services
             return group;
         }
 
-        public List<Contact> SearchContact(string key)
-        {
-            using (var _context = new Context())
-            {
-                return _context.Contacts
-                .Where(c => c.Name.ToLower().Contains(key) || c.Number.Contains(key) || c.Email.Contains(key))
-                .OrderBy(c => c.Name)
-                .ToList();
-            }
-        }
-
         public List<Contact> ShowAll()
         {
             using (var _context = new Context())
@@ -197,6 +133,31 @@ namespace DEMO.Logic.Services
                 .OrderBy(c => c.Name)
                 .ToList();
             }
+        }
+
+        public string ValidateFields(string name, string number, string email, string address)
+        {
+            HelperService help = new HelperService();
+
+            var nameError = help.ValidateName(name);
+            if (nameError != string.Empty)
+            {
+                return nameError;
+            }
+
+            var numberError = help.ValidateNumber(number);
+            if (numberError != string.Empty)
+            {
+                return numberError;
+            }
+
+            var emailAddressError = help.ValidateEmailAndAddress(email, address);
+            if (emailAddressError != string.Empty)
+            {
+                return emailAddressError;
+            }
+
+            return string.Empty;
         }
     }
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0NFOzdVR/E0=",
+  "dgSpecHash": "tFV7NQ8obfk=",
   "success": true,
   "projectFilePath": "C:\\Users\\Sadman Shoumik\\Desktop\\Contact-Management\\DEMO\\DEMO\\DEMO.csproj",
   "expectedPackageFiles": [
@@ -172,7 +172,8 @@
     "C:\\Users\\Sadman Shoumik\\.nuget\\packages\\xunit.assert\\2.9.1\\xunit.assert.2.9.1.nupkg.sha512",
     "C:\\Users\\Sadman Shoumik\\.nuget\\packages\\xunit.core\\2.9.1\\xunit.core.2.9.1.nupkg.sha512",
     "C:\\Users\\Sadman Shoumik\\.nuget\\packages\\xunit.extensibility.core\\2.9.1\\xunit.extensibility.core.2.9.1.nupkg.sha512",
-    "C:\\Users\\Sadman Shoumik\\.nuget\\packages\\xunit.extensibility.execution\\2.9.1\\xunit.extensibility.execution.2.9.1.nupkg.sha512"
+    "C:\\Users\\Sadman Shoumik\\.nuget\\packages\\xunit.extensibility.execution\\2.9.1\\xunit.extensibility.execution.2.9.1.nupkg.sha512",
+    "C:\\Users\\Sadman Shoumik\\.nuget\\packages\\xunit.runner.visualstudio\\2.8.2\\xunit.runner.visualstudio.2.8.2.nupkg.sha512"
   ],
   "logs": [
     {
