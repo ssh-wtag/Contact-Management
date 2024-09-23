@@ -1,15 +1,6 @@
-﻿using DEMO.Domain.Models;
-using DEMO.Infrastructure.Data;
-using DEMO.Logic.Services;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using ContactManagerClassLibrary.Domain.Models;
+using ContactManagerClassLibrary.Infrastructure.Data;
+using ContactManagerClassLibrary.Infrastructure.Services;
 
 namespace DEMO
 {

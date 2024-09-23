@@ -1,8 +1,8 @@
 using AutoFixture;
-using DEMO.Domain.Models;
-using DEMO.Infrastructure.Data;
-using DEMO.Infrastructure.Services;
-using DEMO.Logic.Services;
+using ContactManagerClassLibrary.Domain.Models;
+using ContactManagerClassLibrary.Infrastructure.Data;
+using ContactManagerClassLibrary.Infrastructure.Services;
+using ContactManagerClassLibrary.Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using Moq;

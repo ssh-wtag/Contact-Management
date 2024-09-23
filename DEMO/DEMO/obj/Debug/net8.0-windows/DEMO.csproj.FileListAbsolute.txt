@@ -440,7 +440,6 @@ C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\DEMO\bin\Debug\net8.0-wi
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\DEMO\bin\Debug\net8.0-windows\xunit.runner.reporters.netcoreapp10.dll
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\DEMO\bin\Debug\net8.0-windows\xunit.runner.utility.netcoreapp10.dll
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\DEMO\bin\Debug\net8.0-windows\DEMO.exe
-C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\DEMO\bin\Debug\net8.0-windows\AppSettings.json
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\DEMO\bin\Debug\net8.0-windows\DEMO.deps.json
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\DEMO\bin\Debug\net8.0-windows\DEMO.runtimeconfig.json
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\DEMO\bin\Debug\net8.0-windows\DEMO.dll
@@ -593,3 +592,8 @@ C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\DEMO\obj\Debug\net8.0-wi
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\DEMO\obj\Debug\net8.0-windows\DEMO.pdb
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\DEMO\obj\Debug\net8.0-windows\DEMO.genruntimeconfig.cache
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\DEMO\obj\Debug\net8.0-windows\ref\DEMO.dll
+C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\DEMO\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\DEMO\bin\Debug\net8.0-windows\CoverletSourceRootsMapping_DEMO
+C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\DEMO\bin\Debug\net8.0-windows\ContactManagerClassLibrary.dll
+C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\DEMO\bin\Debug\net8.0-windows\ContactManagerClassLibrary.pdb
+C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\DEMO\bin\Debug\net8.0-windows\AppSettings.json

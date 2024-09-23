@@ -639,7 +639,6 @@ C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.runner.visualstudio.testadapter.dll
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.runner.reporters.netcoreapp10.dll
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\xunit.runner.utility.netcoreapp10.dll
-C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\AppSettings.json
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Test_ContactManager.deps.json
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Test_ContactManager.runtimeconfig.json
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\Test_ContactManager.dll
@@ -796,3 +795,5 @@ C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\obj\
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.pdb
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\Test_ContactManager.genruntimeconfig.cache
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\ref\Test_ContactManager.dll
+C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ContactManagerClassLibrary.dll
+C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ContactManagerClassLibrary.pdb

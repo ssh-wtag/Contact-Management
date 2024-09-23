@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Test_ContactManager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9813f7bc29d74f44024ed4a2ca77e75231e4d4b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a83df83cda53524c231cd5f67b829f5ffe1efdfa")]
 [assembly: System.Reflection.AssemblyProductAttribute("Test_ContactManager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Test_ContactManager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
