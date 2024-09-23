@@ -254,9 +254,7 @@ namespace Test_ContactManager
         public void ValidateNumbersFalse(string number)
         {
             Init();
-
-            var help = new HelperService();
-            string result = help.ValidateNumber(number);
+            string result = HelperService.ValidateNumber(number);
 
             Assert.NotEqual(result, string.Empty);
         }
@@ -279,8 +277,7 @@ namespace Test_ContactManager
         {
             Init();
 
-            var help = new HelperService();
-            string result = help.ValidateNumber(number);
+            string result = HelperService.ValidateNumber(number);
 
             Assert.Equal(result, string.Empty);
         }
@@ -294,9 +291,8 @@ namespace Test_ContactManager
         {
             Init();
 
-            var help = new HelperService();
-            string result1 = help.ValidateName(name);
-            string result2 = help.ValidateNumber(number);
+            string result1 = HelperService.ValidateName(name);
+            string result2 = HelperService.ValidateNumber(number);
 
             Assert.NotEqual(result1 + result2, string.Empty);
         }

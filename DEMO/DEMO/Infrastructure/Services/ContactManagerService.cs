@@ -137,21 +137,19 @@ namespace DEMO.Logic.Services
 
         public string ValidateFields(string name, string number, string email, string address)
         {
-            HelperService help = new HelperService();
-
-            var nameError = help.ValidateName(name);
+            var nameError = HelperService.ValidateName(name);
             if (nameError != string.Empty)
             {
                 return nameError;
             }
 
-            var numberError = help.ValidateNumber(number);
+            var numberError = HelperService.ValidateNumber(number);
             if (numberError != string.Empty)
             {
                 return numberError;
             }
 
-            var emailAddressError = help.ValidateEmailAndAddress(email, address);
+            var emailAddressError = HelperService.ValidateEmailAndAddress(email, address);
             if (emailAddressError != string.Empty)
             {
                 return emailAddressError;
