@@ -154,13 +154,16 @@ namespace Test_ContactManager
             Assert.Equal(group.GroupId, retrievedContact.Groups.First().GroupId);
         }
 
+        #endregion
+
+        #region Testing for Exceptions
+
         [Fact]
         public void AddDuplicateContact()
         {
             Init();
 
             var newContact = fixture.Create<Contact>();
-
             context.Contacts.Add(newContact);
             context.SaveChanges();
 
@@ -179,6 +182,53 @@ namespace Test_ContactManager
 
             Assert.NotNull(exception);
             Assert.IsType<ArgumentException>(exception);
+        }
+
+        [Fact]
+        public void DeleteNonExistingContact()
+        {
+            Init();
+
+            var contact = fixture.Create<Contact>();
+
+            Exception exception = null;
+
+            try
+            {
+                context.Contacts.Remove(contact);
+                context.SaveChanges();
+            }
+            catch(Exception ex)
+            {
+                exception = ex;
+            }
+
+            Assert.NotNull(exception);
+            Assert.IsType<DbUpdateConcurrencyException>(exception);
+        }
+
+        [Fact]
+        public void RetrieveNonExistingContact()
+        {
+            Init();
+
+            var contact = fixture.Create<Contact>();
+
+            Exception exception = null;
+
+            try
+            {
+                context.Contacts.Remove(contact);
+                context.SaveChanges();
+                var retrievedContact = context.Contacts.Find(contact.ContactId);
+            }
+            catch (Exception ex)
+            {
+                exception = ex;
+            }
+
+            Assert.NotNull(exception);
+            Assert.IsType<DbUpdateConcurrencyException>(exception);
         }
 
         #endregion
