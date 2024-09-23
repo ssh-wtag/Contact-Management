@@ -1,4 +1,4 @@
-﻿using DEMO.Domain.Models;
+﻿using ContactManagerClassLibrary.Domain.Models;
 
 namespace DEMO
 {

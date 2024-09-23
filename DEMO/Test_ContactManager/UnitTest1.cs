@@ -1,8 +1,10 @@
 using AutoFixture;
-using DEMO.Domain.Models;
-using DEMO.Infrastructure.Data;
-using DEMO.Logic.Services;
+using ContactManagerClassLibrary.Domain.Models;
+using ContactManagerClassLibrary.Infrastructure.Data;
+using ContactManagerClassLibrary.Infrastructure.Services;
+using ContactManagerClassLibrary.Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 using Moq;
 using System.Windows.Forms;
 using Xunit;
@@ -252,9 +254,7 @@ namespace Test_ContactManager
         public void ValidateNumbersFalse(string number)
         {
             Init();
-
-            cmservice = new ContactManagerService();
-            string result = cmservice.ValidateNumber(number);
+            string result = HelperService.ValidateNumber(number);
 
             Assert.NotEqual(result, string.Empty);
         }
@@ -277,8 +277,7 @@ namespace Test_ContactManager
         {
             Init();
 
-            cmservice = new ContactManagerService();
-            string result = cmservice.ValidateNumber(number);
+            string result = HelperService.ValidateNumber(number);
 
             Assert.Equal(result, string.Empty);
         }
@@ -292,9 +291,8 @@ namespace Test_ContactManager
         {
             Init();
 
-            cmservice = new ContactManagerService();
-            string result1 = cmservice.ValidateName(name);
-            string result2 = cmservice.ValidateNumber(number);
+            string result1 = HelperService.ValidateName(name);
+            string result2 = HelperService.ValidateNumber(number);
 
             Assert.NotEqual(result1 + result2, string.Empty);
         }

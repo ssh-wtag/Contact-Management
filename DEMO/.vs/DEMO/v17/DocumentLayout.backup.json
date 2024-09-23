@@ -5,22 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1035EC13-CF73-4FD1-9A73-1C01A7B0DBE9}|Test_ContactManager\\Test_ContactManager.csproj|c:\\users\\sadman shoumik\\desktop\\contact-management\\demo\\test_contactmanager\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1035EC13-CF73-4FD1-9A73-1C01A7B0DBE9}|Test_ContactManager\\Test_ContactManager.csproj|solutionrelative:test_contactmanager\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92D49952-0D20-4E96-95A0-3E59F74C83F7}|DEMO\\DEMO.csproj|c:\\users\\sadman shoumik\\desktop\\contact-management\\demo\\demo\\presentation\\usercontrols\\addcontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92D49952-0D20-4E96-95A0-3E59F74C83F7}|DEMO\\DEMO.csproj|solutionrelative:demo\\presentation\\usercontrols\\addcontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92D49952-0D20-4E96-95A0-3E59F74C83F7}|DEMO\\DEMO.csproj|c:\\users\\sadman shoumik\\desktop\\contact-management\\demo\\demo\\presentation\\usercontrols\\viewdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92D49952-0D20-4E96-95A0-3E59F74C83F7}|DEMO\\DEMO.csproj|solutionrelative:demo\\presentation\\usercontrols\\viewdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92D49952-0D20-4E96-95A0-3E59F74C83F7}|DEMO\\DEMO.csproj|c:\\users\\sadman shoumik\\desktop\\contact-management\\demo\\demo\\infrastructure\\services\\contactmanagerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92D49952-0D20-4E96-95A0-3E59F74C83F7}|DEMO\\DEMO.csproj|solutionrelative:demo\\infrastructure\\services\\contactmanagerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92D49952-0D20-4E96-95A0-3E59F74C83F7}|DEMO\\DEMO.csproj|c:\\users\\sadman shoumik\\desktop\\contact-management\\demo\\demo\\infrastructure\\interfaces\\icontactmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92D49952-0D20-4E96-95A0-3E59F74C83F7}|DEMO\\DEMO.csproj|solutionrelative:demo\\infrastructure\\interfaces\\icontactmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,60 +24,9 @@
               "RelativeDocumentMoniker": "Test_ContactManager\\UnitTest1.cs",
               "ToolTip": "C:\\Users\\Sadman Shoumik\\Desktop\\Contact-Management\\DEMO\\Test_ContactManager\\UnitTest1.cs",
               "RelativeToolTip": "Test_ContactManager\\UnitTest1.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAYwC4BAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T11:23:17.242Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddContact.cs",
-              "DocumentMoniker": "C:\\Users\\Sadman Shoumik\\Desktop\\Contact-Management\\DEMO\\DEMO\\Presentation\\UserControls\\AddContact.cs",
-              "RelativeDocumentMoniker": "DEMO\\Presentation\\UserControls\\AddContact.cs",
-              "ToolTip": "C:\\Users\\Sadman Shoumik\\Desktop\\Contact-Management\\DEMO\\DEMO\\Presentation\\UserControls\\AddContact.cs",
-              "RelativeToolTip": "DEMO\\Presentation\\UserControls\\AddContact.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T09:45:55.836Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ViewDetails.cs",
-              "DocumentMoniker": "C:\\Users\\Sadman Shoumik\\Desktop\\Contact-Management\\DEMO\\DEMO\\Presentation\\UserControls\\ViewDetails.cs",
-              "RelativeDocumentMoniker": "DEMO\\Presentation\\UserControls\\ViewDetails.cs",
-              "ToolTip": "C:\\Users\\Sadman Shoumik\\Desktop\\Contact-Management\\DEMO\\DEMO\\Presentation\\UserControls\\ViewDetails.cs",
-              "RelativeToolTip": "DEMO\\Presentation\\UserControls\\ViewDetails.cs",
-              "ViewState": "AgIAAKEAAAAAAAAAAAA7wMQAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T09:40:53.119Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IContactManager.cs",
-              "DocumentMoniker": "C:\\Users\\Sadman Shoumik\\Desktop\\Contact-Management\\DEMO\\DEMO\\Infrastructure\\Interfaces\\IContactManager.cs",
-              "RelativeDocumentMoniker": "DEMO\\Infrastructure\\Interfaces\\IContactManager.cs",
-              "ToolTip": "C:\\Users\\Sadman Shoumik\\Desktop\\Contact-Management\\DEMO\\DEMO\\Infrastructure\\Interfaces\\IContactManager.cs",
-              "RelativeToolTip": "DEMO\\Infrastructure\\Interfaces\\IContactManager.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAkwGcAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T09:41:07.193Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ContactManagerService.cs",
-              "DocumentMoniker": "C:\\Users\\Sadman Shoumik\\Desktop\\Contact-Management\\DEMO\\DEMO\\Infrastructure\\Services\\ContactManagerService.cs",
-              "RelativeDocumentMoniker": "DEMO\\Infrastructure\\Services\\ContactManagerService.cs",
-              "ToolTip": "C:\\Users\\Sadman Shoumik\\Desktop\\Contact-Management\\DEMO\\DEMO\\Infrastructure\\Services\\ContactManagerService.cs",
-              "RelativeToolTip": "DEMO\\Infrastructure\\Services\\ContactManagerService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC8AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T09:40:55.369Z",
+              "WhenOpened": "2024-09-23T10:33:34.654Z",
               "EditorCaption": ""
             }
           ]

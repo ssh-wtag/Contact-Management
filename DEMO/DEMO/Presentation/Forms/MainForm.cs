@@ -1,5 +1,5 @@
-using DEMO.Domain.Models;
-using DEMO.Logic.Services;
+using ContactManagerClassLibrary.Domain.Models;
+using ContactManagerClassLibrary.Infrastructure.Services;
 using System.Windows.Forms;
 using static DEMO.ViewAll;
 

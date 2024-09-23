@@ -1,0 +1,15 @@
+C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\ContactManagerClassLibrary\bin\Debug\net8.0-windows\ContactManagerClassLibrary.deps.json
+C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\ContactManagerClassLibrary\bin\Debug\net8.0-windows\ContactManagerClassLibrary.runtimeconfig.json
+C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\ContactManagerClassLibrary\bin\Debug\net8.0-windows\ContactManagerClassLibrary.dll
+C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\ContactManagerClassLibrary\bin\Debug\net8.0-windows\ContactManagerClassLibrary.pdb
+C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\ContactManagerClassLibrary\obj\Debug\net8.0-windows\ContactManagerClassLibrary.csproj.AssemblyReference.cache
+C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\ContactManagerClassLibrary\obj\Debug\net8.0-windows\ContactManagerClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\ContactManagerClassLibrary\obj\Debug\net8.0-windows\ContactManagerClassLibrary.AssemblyInfoInputs.cache
+C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\ContactManagerClassLibrary\obj\Debug\net8.0-windows\ContactManagerClassLibrary.AssemblyInfo.cs
+C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\ContactManagerClassLibrary\obj\Debug\net8.0-windows\ContactManagerClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\ContactManagerClassLibrary\obj\Debug\net8.0-windows\ContactManagerClassLibrary.sourcelink.json
+C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\ContactManagerClassLibrary\obj\Debug\net8.0-windows\ContactManagerClassLibrary.dll
+C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\ContactManagerClassLibrary\obj\Debug\net8.0-windows\refint\ContactManagerClassLibrary.dll
+C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\ContactManagerClassLibrary\obj\Debug\net8.0-windows\ContactManagerClassLibrary.pdb
+C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\ContactManagerClassLibrary\obj\Debug\net8.0-windows\ContactManagerClassLibrary.genruntimeconfig.cache
+C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\ContactManagerClassLibrary\obj\Debug\net8.0-windows\ref\ContactManagerClassLibrary.dll
