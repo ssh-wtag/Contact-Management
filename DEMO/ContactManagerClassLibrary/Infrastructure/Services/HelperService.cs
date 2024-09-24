@@ -1,4 +1,5 @@
-﻿using Microsoft.IdentityModel.Tokens;
+﻿using ContactManagerClassLibrary.Domain.Models;
+using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,47 +12,89 @@ namespace ContactManagerClassLibrary.Infrastructure.Services
     public static class HelperService
     {
         /// <summary>
-        /// Validates the provided name for length and emptiness.
+        /// Validates the provided fields: name, number, email, and address.
         /// </summary>
         /// <param name="name">The name to validate.</param>
-        /// <returns>
-        /// An error message if the name is empty or exceeds the maximum length; otherwise, an empty string.
-        /// </returns>
+        /// <param name="number">The number to validate.</param>
+        /// <param name="email">The email address to validate.</param>
+        /// <param name="address">The address to validate.</param>
+        /// <returns>A <see cref="Result"/> indicating the success or failure of the validation.</returns>
         /// <remarks>
-        /// This method checks if the name is null or empty and ensures that it does not exceed 100 characters.
-        /// If the name is valid, an empty string is returned; otherwise, a descriptive error message is provided.
+        /// This method performs sequential validation on the provided fields. If any field is invalid, 
+        /// the validation process stops, and an appropriate result is returned. 
+        /// The validation is performed in the following order:
+        /// 1. Name
+        /// 2. Number
+        /// 3. Email and Address (Validated together).
         /// </remarks>
-        public static string ValidateName(string name)
+        public static Result ValidateFields(string name, string number, string email, string address)
+        {
+            var nameResult = ValidateName(name);
+            if (!nameResult.IsSuccess)
+                return nameResult;
+
+            var numberResult = ValidateNumber(number);
+            if (!numberResult.IsSuccess)
+                return numberResult;
+
+            var emailAddressResult = ValidateEmailAndAddress(email, address);
+            if (!emailAddressResult.IsSuccess)
+            {
+                return emailAddressResult;
+            }
+
+            return new Result(true);
+        }
+
+
+        /// <summary>
+        /// Validates the provided name for non-emptiness and length constraints.
+        /// </summary>
+        /// <param name="name">The name to validate.</param>
+        /// <returns>A <see cref="Result"/> indicating the success or failure of the validation.</returns>
+        /// <remarks>
+        /// This method checks the following criteria for the name:
+        /// 1. The name must not be empty or null.
+        /// 2. The length of the name must not exceed 100 characters.
+        /// 
+        /// If the name does not meet these criteria, a descriptive error message is included in the result.
+        /// </remarks>
+        private static Result ValidateName(string name)
         {
             if (name.IsNullOrEmpty())
             {
-                return "Name Cannot Be Empty.";
+                return new Result(false, "Name Cannot Be Empty.");
             }
             if (name.Length > 100)
             {
-                return "Name Too Long.";
+                return new Result(false, "Name Too Long.");
             }
 
-            return string.Empty;
+            return new Result(true);
         }
+
 
         /// <summary>
         /// Validates the provided phone number for format and length.
         /// </summary>
         /// <param name="number">The phone number to validate.</param>
         /// <returns>
-        /// An error message if the number is empty or does not match the valid format; otherwise, an empty string.
+        /// A <see cref="Result"/> indicating the success or failure of the validation, 
+        /// with an error message if the number is invalid.
         /// </returns>
         /// <remarks>
-        /// This method checks that the phone number does not exceed 20 characters in length.
-        /// It uses a regular expression to ensure the number contains only digits, 
-        /// an optional leading plus sign (+), and hyphens (-) for formatting.
-        /// If the number is valid, an empty string is returned; otherwise, a descriptive error message is provided.
+        /// This method checks that the phone number:
+        /// 1. Does not exceed 20 characters in length.
+        /// 2. Matches the valid format, allowing only digits, 
+        ///    an optional leading plus sign (+), and hyphens (-) for formatting.
+        /// 
+        /// If the number is valid, the result indicates success; otherwise, 
+        /// a descriptive error message is provided.
         /// </remarks>
-        public static string ValidateNumber(string number)
+        private static Result ValidateNumber(string number)
         {
             if (number.Length > 20)
-                return "Number too Long.";
+                return new Result(false, "Number too Long.");
 
             string pattern = "^[+]?(\\d+(-\\d+)*|\\d+)$";
             Regex regex = new Regex(pattern);
@@ -60,32 +103,38 @@ namespace ContactManagerClassLibrary.Infrastructure.Services
 
             if (!match || number.IsNullOrEmpty())
             {
-                return "Phone Numbers Cannot be Empty and May Only Contain Digits, a Plus Sign (+) at the Start, and Hyphens (-).";
+                return new Result(false, "Phone Numbers Cannot be Empty and May Only Contain Digits, a Plus Sign (+) at the Start, and Singular Hyphens (-) Between Digits.");
             }
 
-            return string.Empty;
+            return new Result(true);
         }
 
+
         /// <summary>
-        /// Validates the provided email and address for length.
+        /// Validates the provided email and address for length constraints.
         /// </summary>
         /// <param name="email">The email address to validate.</param>
         /// <param name="address">The address to validate.</param>
         /// <returns>
-        /// An error message if the email or address exceeds the maximum allowed length; otherwise, an empty string.
+        /// A <see cref="Result"/> indicating the success or failure of the validation, 
+        /// with an error message if either field is invalid.
         /// </returns>
         /// <remarks>
-        /// This method checks that the email does not exceed 150 characters and the address does not exceed 1000 characters.
-        /// If both fields are valid, an empty string is returned; otherwise, a descriptive error message is provided for the field that fails validation.
+        /// This method checks the following criteria:
+        /// 1. The email must not exceed 150 characters in length.
+        /// 2. The address must not be 1000 characters or longer.
+        /// 
+        /// If either field is invalid, a descriptive error message is included in the result.
+        /// If both fields are valid, the method returns a successful result.
         /// </remarks>
-        public static string ValidateEmailAndAddress(string email, string address)
+        private static Result ValidateEmailAndAddress(string email, string address)
         {
             if (email.Length > 150)
-                return "Email Length Too Long.";
+                return new Result(false, "Email Length Too Long.");
             else if (address.Length >= 1000)
-                return "Address Length Too Long.";
+                return new Result(false, "Address Length Too Long.");
             else
-                return string.Empty;
+                return new Result(true);
         }
     }
 }

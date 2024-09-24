@@ -12,21 +12,43 @@ namespace ContactManagerClassLibrary.Infrastructure.Services
 {
     public class ContactManagerService : IContactManager
     {
-        public string AddContact(Contact newContact, Context _context)
+        public Result AddContact(string name, string number, string email, string address, bool[] groups)
         {
-            try
+            var fieldResult = HelperService.ValidateFields(name, number, email, address);
+            if (!fieldResult.IsSuccess)
+                return fieldResult;
+
+            Contact newContact = new Contact()
             {
-                _context.Contacts.Add(newContact);
-                _context.SaveChanges();
-                return string.Empty;
-            }
-            catch (Exception ex)
+                Name = name,
+                Number = number,
+                Email = email,
+                Address = address,
+                Groups = new List<Group>()
+            };
+
+            using (var _context = new Context())
             {
-                return ex.Message;
+                for (int i = 0; i < groups.Length; i++)
+                {
+                    if (groups[i])
+                        newContact.Groups.Add(_context.Groups.Find(i+1));
+                }
+
+                try
+                {
+                    _context.Contacts.Add(newContact);
+                    _context.SaveChanges();
+                    return new Result(true);
+                }
+                catch (Exception ex)
+                {
+                    return new Result(true, ex.Message);
+                }
             }
         }
 
-        public bool DeleteContact(int id)
+        public Result DeleteContact(int id)
         {
             using (var _context = new Context())
             {
@@ -39,18 +61,20 @@ namespace ContactManagerClassLibrary.Infrastructure.Services
                 {
                     _context.Contacts.Remove(contact);
                     _context.SaveChanges();
-                    return true;
+                    return new Result(true);
                 }
                 catch (Exception ex)
                 {
-                    return false;
+                    return new Result(false, ex.Message);
                 }
             }
         }
 
-        public bool EditContact(Contact editedContact)
+        public Result EditContact(int id, string name, string number, string email, string address, bool[] groups)
         {
-            int id = editedContact.ContactId;
+            var fieldResult = HelperService.ValidateFields(name, number, email, address);
+            if (!fieldResult.IsSuccess)
+                return fieldResult;
 
             using (var _context = new Context())
             {
@@ -58,21 +82,17 @@ namespace ContactManagerClassLibrary.Infrastructure.Services
 
                 try
                 {
-                    contact.ContactId = editedContact.ContactId;
-                    contact.Name = editedContact.Name;
-                    contact.Number = editedContact.Number;
-                    contact.Email = editedContact.Email;
-                    contact.Address = editedContact.Address;
-
+                    contact.ContactId = id;
+                    contact.Name = name;
+                    contact.Number = number;
+                    contact.Email = email;
+                    contact.Address = address;
                     contact.Groups.Clear();
 
-                    foreach (var group in editedContact.Groups)
+                    for (int i = 0; i < groups.Length; i++)
                     {
-                        var existingGroup = _context.Groups.Find(group.GroupId);
-                        if (existingGroup != null)
-                        {
-                            contact.Groups.Add(existingGroup);
-                        }
+                        if (groups[i])
+                            contact.Groups.Add(_context.Groups.Find(i + 1));
                     }
 
                     _context.Contacts.Update(contact);
@@ -80,10 +100,10 @@ namespace ContactManagerClassLibrary.Infrastructure.Services
                 }
                 catch (Exception ex)
                 {
-                    return false;
+                    return new Result(false, ex.Message);
                 }
 
-                return true;
+                return new Result(true);
             }
         }
 
@@ -129,29 +149,6 @@ namespace ContactManagerClassLibrary.Infrastructure.Services
                 .OrderBy(c => c.Name)
                 .ToList();
             }
-        }
-
-        public string ValidateFields(string name, string number, string email, string address)
-        {
-            var nameError = HelperService.ValidateName(name);
-            if (nameError != string.Empty)
-            {
-                return nameError;
-            }
-
-            var numberError = HelperService.ValidateNumber(number);
-            if (numberError != string.Empty)
-            {
-                return numberError;
-            }
-
-            var emailAddressError = HelperService.ValidateEmailAndAddress(email, address);
-            if (emailAddressError != string.Empty)
-            {
-                return emailAddressError;
-            }
-
-            return string.Empty;
         }
     }
 }

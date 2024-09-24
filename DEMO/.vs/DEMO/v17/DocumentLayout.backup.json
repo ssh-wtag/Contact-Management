@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Sadman Shoumik\\Desktop\\Contact-Management\\DEMO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1035EC13-CF73-4FD1-9A73-1C01A7B0DBE9}|Test_ContactManager\\Test_ContactManager.csproj|c:\\users\\sadman shoumik\\desktop\\contact-management\\demo\\test_contactmanager\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1035EC13-CF73-4FD1-9A73-1C01A7B0DBE9}|Test_ContactManager\\Test_ContactManager.csproj|solutionrelative:test_contactmanager\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92D49952-0D20-4E96-95A0-3E59F74C83F7}|DEMO\\DEMO.csproj|c:\\users\\sadman shoumik\\desktop\\contact-management\\demo\\demo\\presentation\\usercontrols\\viewall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92D49952-0D20-4E96-95A0-3E59F74C83F7}|DEMO\\DEMO.csproj|solutionrelative:demo\\presentation\\usercontrols\\viewall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92D49952-0D20-4E96-95A0-3E59F74C83F7}|DEMO\\DEMO.csproj|c:\\users\\sadman shoumik\\desktop\\contact-management\\demo\\demo\\presentation\\usercontrols\\viewdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92D49952-0D20-4E96-95A0-3E59F74C83F7}|DEMO\\DEMO.csproj|solutionrelative:demo\\presentation\\usercontrols\\viewdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92D49952-0D20-4E96-95A0-3E59F74C83F7}|DEMO\\DEMO.csproj|c:\\users\\sadman shoumik\\desktop\\contact-management\\demo\\demo\\presentation\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92D49952-0D20-4E96-95A0-3E59F74C83F7}|DEMO\\DEMO.csproj|solutionrelative:demo\\presentation\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\Sadman Shoumik\\Desktop\\Contact-Management\\DEMO\\Test_ContactManager\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "Test_ContactManager\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\Sadman Shoumik\\Desktop\\Contact-Management\\DEMO\\Test_ContactManager\\UnitTest1.cs",
-              "RelativeToolTip": "Test_ContactManager\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ViewDetails.cs",
+              "DocumentMoniker": "C:\\Users\\Sadman Shoumik\\Desktop\\Contact-Management\\DEMO\\DEMO\\Presentation\\UserControls\\ViewDetails.cs",
+              "RelativeDocumentMoniker": "DEMO\\Presentation\\UserControls\\ViewDetails.cs",
+              "ToolTip": "C:\\Users\\Sadman Shoumik\\Desktop\\Contact-Management\\DEMO\\DEMO\\Presentation\\UserControls\\ViewDetails.cs",
+              "RelativeToolTip": "DEMO\\Presentation\\UserControls\\ViewDetails.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwG0AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T10:33:34.654Z",
+              "WhenOpened": "2024-09-24T04:20:44.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewAll.cs",
+              "DocumentMoniker": "C:\\Users\\Sadman Shoumik\\Desktop\\Contact-Management\\DEMO\\DEMO\\Presentation\\UserControls\\ViewAll.cs",
+              "RelativeDocumentMoniker": "DEMO\\Presentation\\UserControls\\ViewAll.cs",
+              "ToolTip": "C:\\Users\\Sadman Shoumik\\Desktop\\Contact-Management\\DEMO\\DEMO\\Presentation\\UserControls\\ViewAll.cs",
+              "RelativeToolTip": "DEMO\\Presentation\\UserControls\\ViewAll.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T11:51:02.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\Sadman Shoumik\\Desktop\\Contact-Management\\DEMO\\DEMO\\Presentation\\Forms\\MainForm.cs",
+              "RelativeDocumentMoniker": "DEMO\\Presentation\\Forms\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Sadman Shoumik\\Desktop\\Contact-Management\\DEMO\\DEMO\\Presentation\\Forms\\MainForm.cs",
+              "RelativeToolTip": "DEMO\\Presentation\\Forms\\MainForm.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwEUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T11:47:23.489Z",
               "EditorCaption": ""
             }
           ]
