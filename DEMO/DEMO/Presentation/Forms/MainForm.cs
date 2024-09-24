@@ -31,7 +31,6 @@ namespace DEMO
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-
             cmservice = new ContactManagerService();
             List<Contact> contacts = cmservice.ShowAll();
             viewAll1.LoadGrid(contacts);
@@ -64,10 +63,6 @@ namespace DEMO
             int Id = (int)e.GetType().GetProperty("Id").GetValue(e);
             viewDetails1.CurrentId = Id;
             viewDetails1.LoadData();
-
-            //var type = e.GetType();
-            //var properties = type.GetProperties();
-            //var property = properties[0];
         }
 
         private void Show_AddContact(object sender, EventArgs e)
