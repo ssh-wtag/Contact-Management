@@ -200,7 +200,7 @@ namespace Test_ContactManager
                 context.Contacts.Remove(contact);
                 context.SaveChanges();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 exception = ex;
             }
@@ -253,10 +253,8 @@ namespace Test_ContactManager
         [InlineData("+3452-345+")]
         public void ValidateNumbersFalse(string number)
         {
-            Init();
-            string result = HelperService.ValidateNumber(number);
-
-            Assert.NotEqual(result, string.Empty);
+            Result result = HelperService.ValidateFields("name", number, "email", "address");
+            Assert.False(result.IsSuccess);
         }
 
         //Test Valid Phone Numbers
@@ -275,11 +273,8 @@ namespace Test_ContactManager
         [InlineData("34")]
         public void ValidateNumbersTrue(string number)
         {
-            Init();
-
-            string result = HelperService.ValidateNumber(number);
-
-            Assert.Equal(result, string.Empty);
+            Result result = HelperService.ValidateFields("name", number, "email", "address");
+            Assert.True(result.IsSuccess);
         }
 
         //Test for Empty Name or Phone Number
@@ -289,12 +284,8 @@ namespace Test_ContactManager
         [InlineData("", "+123123")]
         public void ValidateEmptyOrNull(string name, string number)
         {
-            Init();
-
-            string result1 = HelperService.ValidateName(name);
-            string result2 = HelperService.ValidateNumber(number);
-
-            Assert.NotEqual(result1 + result2, string.Empty);
+            Result result = HelperService.ValidateFields(name, number, "email", "address");
+            Assert.False(result.IsSuccess, result.Error);
         }
 
         #endregion

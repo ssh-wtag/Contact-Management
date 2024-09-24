@@ -37,64 +37,45 @@ namespace DEMO
 
         private void btnSaveContact_Click(object sender, EventArgs e)
         {
-            cmservice = new ContactManagerService();
-
             string name = tbName.Text.Trim();
             string number = tbNumber.Text.Trim();
             string email = tbEmail.Text.Trim();
             string address = tbAddress.Text.Trim();
+            bool[] groups = new bool[cbGroup.Items.Count];
+            Array.Fill(groups, false);
 
-            var fieldError = cmservice.ValidateFields(name, number, email, address);
-            if (fieldError != string.Empty)
+            foreach (var item in cbGroup.CheckedItems)
             {
-                MessageBox.Show(fieldError, "Warning");
-                return;
+                switch (item.ToString())
+                {
+                    case "Family":
+                        groups[(int)GroupType.Family] = true;
+                        break;
+                    case "Friend":
+                        groups[(int)GroupType.Friend] = true;
+                        break;
+                    case "Work":
+                        groups[(int)GroupType.Work] = true;
+                        break;
+                }
             }
 
             cmservice = new ContactManagerService();
+            Result result = cmservice.AddContact(name, number, email, address, groups);
 
-            Contact newContact = new Contact
+            if (result.IsSuccess)
             {
-                Name = name,
-                Number = number,
-                Email = email,
-                Address = address,
-                Groups = new List<Group>()
-            };
+                MessageBox.Show("Contact Saved Successfully.", "Contact Saved");
 
-            using (var context = new Context())
-            {
-                foreach (var item in cbGroup.CheckedItems)
-                {
-                    switch (item.ToString())
-                    {
-                        case "Family":
-                            newContact.Groups.Add(cmservice.GetGroupById(1, context));
-                            break;
-                        case "Friend":
-                            newContact.Groups.Add(cmservice.GetGroupById(2, context));
-                            break;
-                        case "Work":
-                            newContact.Groups.Add(cmservice.GetGroupById(3, context));
-                            break;
-                    }
-                }
-
-                var addError = cmservice.AddContact(newContact, context);
-                if (addError != string.Empty)
-                {
-                    MessageBox.Show(addError, "Error!");
-                }
-                else
-                {
-                    MessageBox.Show("Contact Saved Successfully.", "Contact Saved");
-
-                    ContactSaveClicked(sender, e);
-                    Reset();
-                }
-                
-                return;
+                ContactSaveClicked(sender, e);
+                Reset();
             }
+            else
+            {
+                MessageBox.Show(result.Error, "Error!");
+            }
+
+            return;
         }
 
         #endregion

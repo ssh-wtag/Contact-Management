@@ -98,43 +98,32 @@ namespace DEMO
 
         private void EditContact()
         {
+            int id = CurrentId;
             string name = gridViewDetails.Rows[0].Cells[1].Value.ToString().Trim();
             string number = gridViewDetails.Rows[1].Cells[1].Value.ToString().Trim();
             string email = gridViewDetails.Rows[2].Cells[1].Value.ToString().Trim();
             string address = gridViewDetails.Rows[3].Cells[1].Value.ToString().Trim();
-
-            var fieldError = cmservice.ValidateFields(name, number, email, address);
-            if (fieldError != string.Empty)
-            {
-                MessageBox.Show(fieldError, "Warning");
-
-                gridViewDetails.Rows[0].Cells[1].Value = cmservice.GetContactById(CurrentId).Name;
-                gridViewDetails.Rows[1].Cells[1].Value = cmservice.GetContactById(CurrentId).Number;
-
-                return;
-            }
-
-            Contact editedContact = new();
-            editedContact.ContactId = CurrentId;
-            editedContact.Name = name;
-            editedContact.Number = number;
-            editedContact.Email = email;
-            editedContact.Address = address;
-            editedContact.Groups = new List<Group>();
-
-            Group family = new Group { GroupId = 1, GroupName = "Family" };
-            Group friend = new Group { GroupId = 2, GroupName = "Friend" };
-            Group work = new Group { GroupId = 3, GroupName = "Work" };
+            bool[] groups = new bool[3];
+            Array.Fill(groups, false);
 
             if (cbFamily.Checked)
-                editedContact.Groups.Add(family);
+                groups[0] = true;
             if (cbFriend.Checked)
-                editedContact.Groups.Add(friend);
+                groups[1] = true;
             if (cbWork.Checked)
-                editedContact.Groups.Add(work);
+                groups[2] = true;
 
-            if (!cmservice.EditContact(editedContact))
-                MessageBox.Show($"Contact Could Not be Edited.");
+            Result result = cmservice.EditContact(id, name, number, email, address, groups);
+            if (!result.IsSuccess)
+            {
+                MessageBox.Show($"Contact Could Not be Edited. {result.Error}", "Warning");
+
+                var contact = cmservice.GetContactById(CurrentId);
+                gridViewDetails.Rows[0].Cells[1].Value = contact.Name;
+                gridViewDetails.Rows[1].Cells[1].Value = contact.Number;
+                gridViewDetails.Rows[2].Cells[1].Value = contact.Email;
+                gridViewDetails.Rows[3].Cells[1].Value = contact.Address;
+            }
 
             return;
         }
@@ -165,28 +154,23 @@ namespace DEMO
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            DialogResult result = MessageBox.Show(
+            DialogResult choice = MessageBox.Show(
                 $"Contact \"{CurrentContact.Name}\" Will Be Deleted?",
                 "Confirmation",
                 MessageBoxButtons.YesNo,
                 MessageBoxIcon.Question
             );
 
-            if (result == DialogResult.Yes)
+            if (choice == DialogResult.Yes)
             {
-                bool success = cmservice.DeleteContact(CurrentId);
-                if (success)
-                {
-                    SuccessfullyDeleted(sender, e);
-                }
+                Result result = cmservice.DeleteContact(CurrentId);
+                if (result.IsSuccess)
+                    ContactDeleted?.Invoke(this, EventArgs.Empty);
+                else
+                    MessageBox.Show(result.Error, "Error");
             }
 
             return;
-        }
-
-        public void SuccessfullyDeleted(object sender, EventArgs e)
-        {
-            ContactDeleted?.Invoke(this, EventArgs.Empty);
         }
 
         #endregion

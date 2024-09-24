@@ -797,3 +797,4 @@ C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\obj\
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\obj\Debug\net8.0-windows\ref\Test_ContactManager.dll
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ContactManagerClassLibrary.dll
 C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\ContactManagerClassLibrary.pdb
+C:\Users\Sadman Shoumik\Desktop\Contact-Management\DEMO\Test_ContactManager\bin\Debug\net8.0-windows\AppSettings.json
