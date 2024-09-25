@@ -2,12 +2,7 @@ using AutoFixture;
 using ContactManagerClassLibrary.Domain.Models;
 using ContactManagerClassLibrary.Infrastructure.Data;
 using ContactManagerClassLibrary.Infrastructure.Services;
-using ContactManagerClassLibrary.Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
-using Newtonsoft.Json;
-using Moq;
-using System.Windows.Forms;
-using Xunit;
 
 namespace Test_ContactManager
 {
@@ -23,8 +18,17 @@ namespace Test_ContactManager
             Init();
         }
 
-        public void Init()
+        private void Init()
         {
+            try
+            {
+                context.Database.EnsureDeleted();
+                context.Dispose();
+            }
+            catch (Exception ex)
+            {
+            }
+
             cmservice = new ContactManagerService();
 
             var options = new DbContextOptionsBuilder<Context>()
@@ -285,6 +289,33 @@ namespace Test_ContactManager
         public void ValidateEmptyOrNull(string name, string number)
         {
             Result result = HelperService.ValidateFields(name, number, "email", "address");
+            Assert.False(result.IsSuccess, result.Error);
+        }
+
+        #endregion
+
+        #region Testing ContactManagerService
+
+        [Theory]
+        [InlineData("Name","-01711111111+")]
+        [InlineData("Name","++01711111111")]
+        [InlineData("Name","--01711111111")]
+        [InlineData("Name","017--11111111")]
+        [InlineData("Name","0171111-+1111")]
+        [InlineData("Name","01711+-111111")]
+        [InlineData("Name","abcd")]
+        [InlineData("Name","-01711111111")]
+        [InlineData("Name","01711111111-")]
+        [InlineData("Name","01711111111+")]
+        [InlineData("Name","+017--11111111")]
+        [InlineData("", "01711-111111")]
+        [InlineData("", "01-711-11111-1")]
+        [InlineData("", "+017-11-111-111")]
+        [InlineData("", "+01711111111")]
+        public async Task TestValidationAddContactAsync(string name, string number)
+        {
+            var result = await cmservice.AddContactAsync(name, number, "Email", "Address", new bool[] {true, false, true});
+
             Assert.False(result.IsSuccess, result.Error);
         }
 

@@ -6,119 +6,82 @@ namespace ContactManagerClassLibrary.Infrastructure.Interfaces
     public interface IContactManager
     {
         /// <summary>
-        /// Adds a new contact with the specified details to the contact list.
+        /// Asynchronously adds a new contact to the database.
         /// </summary>
         /// <param name="name">The name of the contact.</param>
         /// <param name="number">The phone number of the contact.</param>
         /// <param name="email">The email address of the contact.</param>
         /// <param name="address">The physical address of the contact.</param>
-        /// <param name="groups">An array of booleans indicating the groups to which the contact belongs.</param>
-        /// <returns>A <see cref="Result"/> indicating the success or failure of the operation, 
-        /// with an error message if applicable.</returns>
+        /// <param name="groups">An array of boolean values indicating which groups the contact belongs to.</param>
+        /// <returns>A <see cref="Task{Result}"/> that represents the asynchronous operation. 
+        /// The result contains information about the success or failure of the operation.</returns>
         /// <remarks>
-        /// This method first validates the provided fields using the <see cref="HelperService.ValidateFields"/> method.
-        /// If any field is invalid, the method returns the corresponding error result.
-        /// 
-        /// If the fields are valid, a new <see cref="Contact"/> is created and populated with the provided details.
-        /// The method then associates the contact with any selected groups based on the <paramref name="groups"/> array.
-        /// 
-        /// Finally, the contact is added to the database context, and changes are saved.
-        /// If an exception occurs during the database operation, the error message is returned.
+        /// This method validates the input fields before adding the contact to the database.
+        /// If validation fails, the method returns the validation result without attempting to save the contact.
+        /// If successful, it adds the contact to the database and associates it with the specified groups.
         /// </remarks>
-        public Result AddContact(string name, string number, string email, string address, bool[] groups);
+        public Task<Result> AddContactAsync(string name, string number, string email, string address, bool[] groups);
 
 
         /// <summary>
-        /// Deletes a contact from the contact list by its identifier.
+        /// Asynchronously deletes a contact from the database by its ID.
         /// </summary>
-        /// <param name="id">The identifier of the contact to delete.</param>
-        /// <returns>A <see cref="Result"/> indicating the success or failure of the operation, 
-        /// with an error message if applicable.</returns>
+        /// <param name="id">The unique identifier of the contact to be deleted.</param>
+        /// <returns>A <see cref="Task{Result}"/> indicating the success of the operation.</returns>
         /// <remarks>
-        /// This method retrieves the contact with the specified <paramref name="id"/> 
-        /// from the database context, including its associated groups. 
-        /// 
-        /// If the contact is found, it is removed from the context, and the changes are saved to the database.
-        /// If an exception occurs during the removal or save process, an error message is returned in the result.
+        /// Retrieves the contact and attempts to delete it. Returns a failure result if the contact 
+        /// does not exist or an error occurs.
         /// </remarks>
-        public Result DeleteContact(int id);
+        public Task<Result> DeleteContactAsync(int id);
 
 
         /// <summary>
-        /// Edits an existing contact's details in the contact list.
+        /// Asynchronously updates an existing contact in the database.
         /// </summary>
-        /// <param name="id">The identifier of the contact to edit.</param>
+        /// <param name="id">The unique identifier of the contact to be edited.</param>
         /// <param name="name">The new name of the contact.</param>
         /// <param name="number">The new phone number of the contact.</param>
         /// <param name="email">The new email address of the contact.</param>
         /// <param name="address">The new physical address of the contact.</param>
-        /// <param name="groups">An array of booleans indicating the groups to which the contact should belong.</param>
-        /// <returns>A <see cref="Result"/> indicating the success or failure of the operation, 
-        /// with an error message if applicable.</returns>
+        /// <param name="groups">An array of boolean values indicating the groups for the contact.</param>
+        /// <returns>A <see cref="Task{Result}"/> indicating the success of the operation.</returns>
         /// <remarks>
-        /// This method first validates the provided fields using the <see cref="HelperService.ValidateFields"/> method.
-        /// If any field is invalid, the method returns the corresponding error result.
-        /// 
-        /// If the fields are valid, the method retrieves the contact with the specified <paramref name="id"/> 
-        /// from the database. It updates the contact's details and clears any existing groups before adding the new ones 
-        /// based on the <paramref name="groups"/> array.
-        /// 
-        /// Finally, the contact is updated in the database context, and changes are saved.
-        /// If an exception occurs during the update or save process, an error message is returned in the result.
+        /// Validates input fields before updating. If the contact is not found or an error occurs, 
+        /// it returns a failure result.
         /// </remarks>
-        public Result EditContact(int id, string name, string number, string email, string address, bool[] groups);
+        public Task<Result> EditContactAsync(int id, string name, string number, string email, string address, bool[] groups);
 
 
         /// <summary>
-        /// Searches for contacts in the database that match the specified search key.
+        /// Asynchronously searches for contacts based on a search key.
         /// </summary>
         /// <param name="key">The search term used to filter contacts by name, number, or email.</param>
-        /// <returns>A list of contacts that match the search criteria.</returns>
+        /// <returns>A <see cref="Task{List{Contact}}"/> containing the list of matching contacts.</returns>
         /// <remarks>
-        /// This method performs a case-insensitive search for contacts whose name, number, or email contains the specified key.
-        /// The results are ordered by the contact's name.
-        /// If no matches are found, an empty list is returned.
+        /// Performs a case-insensitive search for contacts whose name, number, or email contains the specified key.
+        /// Results are ordered by contact name. Returns an empty list if no matches are found.
         /// </remarks>
-        public List<Contact> SearchContact(string key);
+        public Task<List<Contact>> SearchContactAsync(string key);
 
 
         /// <summary>
-        /// Retrieves a contact from the database by its unique identifier.
+        /// Asynchronously retrieves a contact by its unique identifier.
         /// </summary>
         /// <param name="id">The unique identifier of the contact to retrieve.</param>
-        /// <returns>
-        /// The contact object if found; otherwise, <c>null</c>.
-        /// </returns>
+        /// <returns>A <see cref="Task{Contact}"/> containing the requested contact, or null if not found.</returns>
         /// <remarks>
-        /// This method searches for a contact with the specified ID and includes its associated groups.
-        /// If the contact does not exist, <c>null</c> is returned.
+        /// Includes associated groups in the retrieval. Returns null if no contact with the specified ID exists.
         /// </remarks>
-        public Contact GetContactById(int id);
+        public Task<Contact> GetContactByIdAsync(int id);
 
 
         /// <summary>
-        /// Retrieves a group from the database by its unique identifier.
+        /// Asynchronously retrieves all contacts from the database.
         /// </summary>
-        /// <param name="id">The unique identifier of the group to retrieve.</param>
-        /// <param name="_context">The database context used to interact with the groups.</param>
-        /// <returns>
-        /// The group object if found; otherwise, <c>null</c>.
-        /// </returns>
+        /// <returns>A <see cref="Task{List{Contact}}"/> containing all contacts, ordered by name.</returns>
         /// <remarks>
-        /// This method searches for a group with the specified ID and includes its associated contacts.
-        /// If the group does not exist, <c>null</c> is returned.
+        /// This method fetches all contacts without filtering. Returns an empty list if no contacts are found.
         /// </remarks>
-        public Group GetGroupById(int id, Context context);
-
-
-        /// <summary>
-        /// Retrieves all contacts from the database.
-        /// </summary>
-        /// <returns>A list of all contacts, ordered by name.</returns>
-        /// <remarks>
-        /// This method fetches all contact records from the database and orders them by the contact's name.
-        /// If there are no contacts, an empty list is returned.
-        /// </remarks>
-        public List<Contact> ShowAll();
+        public Task<List<Contact>> ShowAllAsync();
     }
 }

@@ -10,25 +10,18 @@ namespace DEMO
         private ContactManagerService cmservice;
         public event EventHandler DetailsButtonClicked;
         public event EventHandler AddContactButtonClicked;
+        private CancellationTokenSource _cancellationTokenSource;
 
         public ViewAll()
         {
             InitializeComponent();
-        }
-
-        private void ViewAll_Load(object sender, EventArgs e)
-        {
             cmservice = new ContactManagerService();
+            _cancellationTokenSource = new CancellationTokenSource();
         }
 
-        #endregion
-
-        #region Loading Data in Grid
-
-        public void LoadGrid(List<Contact> contacts)
+        public void LoadGrid()
         {
             gridViewAll.Columns.Clear();
-            gridViewAll.Rows.Clear();
 
             gridViewAll.Columns.Add("ContactId", "ID");
             gridViewAll.Columns.Add("Name", "Name");
@@ -44,11 +37,6 @@ namespace DEMO
 
             //gridViewAll.Columns.Add("Groups", "Groups");
 
-            foreach (var c in contacts)
-            {
-                gridViewAll.Rows.Add(c.ContactId, c.Name, c.Number); //, string.Join(", ", c.Groups.Select(g => g.GroupName) ));
-            }
-
             gridViewAll.Columns["ContactID"].Visible = false;
             gridViewAll.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             gridViewAll.CellContentClick += DataGridView1_CellContentClick;
@@ -58,15 +46,29 @@ namespace DEMO
 
         #endregion
 
+        #region Loading Data in Grid
+
+        public void LoadData(List<Contact> contacts)
+        {
+            gridViewAll.Rows.Clear();
+
+            foreach (var c in contacts)
+            {
+                gridViewAll.Rows.Add(c.ContactId, c.Name, c.Number); //, string.Join(", ", c.Groups.Select(g => g.GroupName) ));
+            }
+        }
+
+        #endregion
+
         #region Searching Contacts
 
-        private void tbSearch_TextChanged(object sender, EventArgs e)
+        private async void tbSearch_TextChanged(object sender, EventArgs e)
         {
             string key = tbSearch.Text.ToString().ToLower().Trim();
 
-            List<Contact> contacts = cmservice.SearchContact(key);
+            List<Contact> contacts = await cmservice.SearchContactAsync(key);
 
-            LoadGrid(contacts);
+            LoadData(contacts);
 
             return;
         }
@@ -75,40 +77,38 @@ namespace DEMO
 
         #region Button Events
 
-        #region View Details
+            #region View Details
 
-        public class ContactEventArgs : EventArgs
-        {
-            public int Id { get; }
-
-            public ContactEventArgs(int id)
+            public class ContactEventArgs : EventArgs
             {
-                Id = id;
-            }
-        }
+                public int Id { get; }
 
-        private void DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            if (e.ColumnIndex == gridViewAll.Columns["DetailsButton"].Index && e.RowIndex >= 0)
+                public ContactEventArgs(int id)
+                {
+                    Id = id;
+                }
+            }
+
+            private void DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
             {
-                int id = (int)gridViewAll.Rows[e.RowIndex].Cells["ContactID"].Value;
+                if (e.ColumnIndex == gridViewAll.Columns["DetailsButton"].Index && e.RowIndex >= 0)
+                {
+                    int id = (int)gridViewAll.Rows[e.RowIndex].Cells["ContactID"].Value;
 
-                //MessageBox.Show(id.ToString());
-
-                DetailsButtonClicked?.Invoke(this, new ContactEventArgs(id));
+                    DetailsButtonClicked?.Invoke(this, new ContactEventArgs(id));
+                }
             }
-        }
 
-        #endregion
+            #endregion
 
-        #region Add Contact
+            #region Add Contact
 
-        private void btnAddContact_Click(object sender, EventArgs e)
-        {
-            AddContactButtonClicked?.Invoke(this, EventArgs.Empty);
-        }
+            private void btnAddContact_Click(object sender, EventArgs e)
+            {
+                AddContactButtonClicked?.Invoke(this, EventArgs.Empty);
+            }
 
-        #endregion
+            #endregion
 
         #endregion
 
@@ -120,6 +120,11 @@ namespace DEMO
         }
 
         private void gridViewAll_CellValueChanged(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void ViewAll_Load(object sender, EventArgs e)
         {
 
         }

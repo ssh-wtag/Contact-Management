@@ -35,7 +35,7 @@ namespace DEMO
 
         #region Adding a New Contact
 
-        private void btnSaveContact_Click(object sender, EventArgs e)
+        private async void btnSaveContact_Click(object sender, EventArgs e)
         {
             string name = tbName.Text.Trim();
             string number = tbNumber.Text.Trim();
@@ -61,7 +61,7 @@ namespace DEMO
             }
 
             cmservice = new ContactManagerService();
-            Result result = cmservice.AddContact(name, number, email, address, groups);
+            Result result = await cmservice.AddContactAsync(name, number, email, address, groups);
 
             if (result.IsSuccess)
             {

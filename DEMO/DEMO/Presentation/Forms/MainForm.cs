@@ -29,11 +29,12 @@ namespace DEMO
             addContact1.ContactSaveClicked += Show_ViewAll;
         }
 
-        private void MainForm_Load(object sender, EventArgs e)
+        private async void MainForm_Load(object sender, EventArgs e)
         {
             cmservice = new ContactManagerService();
-            List<Contact> contacts = cmservice.ShowAll();
-            viewAll1.LoadGrid(contacts);
+            List<Contact> contacts = await cmservice.ShowAllAsync();
+            viewAll1.LoadGrid();
+            viewAll1.LoadData(contacts);
         }
 
         #endregion
@@ -47,11 +48,11 @@ namespace DEMO
             addContact1.Visible = false;
         }
 
-        private void Show_ViewAll(object sender, EventArgs e)
+        private async void Show_ViewAll(object sender, EventArgs e)
         {
             HideAll();
             viewAll1.Visible = true;
-            viewAll1.LoadGrid(cmservice.ShowAll());
+            viewAll1.LoadData(await cmservice.ShowAllAsync());
         }
 
         private void Show_ViewDetails(object sender, EventArgs e)
