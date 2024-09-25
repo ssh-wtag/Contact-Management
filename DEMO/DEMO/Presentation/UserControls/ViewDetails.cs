@@ -55,12 +55,12 @@ namespace DEMO
 
         #region Loading Data in Grid
 
-        public void LoadData()
+        public async void LoadData()
         {
             LoadGrid();
 
             cmservice = new ContactManagerService();
-            CurrentContact = cmservice.GetContactById(CurrentId);
+            CurrentContact = await cmservice.GetContactByIdAsync(CurrentId);
 
             dataTable.Rows.Add("Name", CurrentContact.Name);
             dataTable.Rows.Add("Number", CurrentContact.Number);
@@ -96,7 +96,7 @@ namespace DEMO
 
         #region Edit Contact
 
-        private void EditContact()
+        private async void EditContact()
         {
             int id = CurrentId;
             string name = gridViewDetails.Rows[0].Cells[1].Value.ToString().Trim();
@@ -113,12 +113,12 @@ namespace DEMO
             if (cbWork.Checked)
                 groups[2] = true;
 
-            Result result = cmservice.EditContact(id, name, number, email, address, groups);
+            Result result = await cmservice.EditContactAsync(id, name, number, email, address, groups);
             if (!result.IsSuccess)
             {
                 MessageBox.Show($"Contact Could Not be Edited. {result.Error}", "Warning");
 
-                var contact = cmservice.GetContactById(CurrentId);
+                var contact = await cmservice.GetContactByIdAsync(CurrentId);
                 gridViewDetails.Rows[0].Cells[1].Value = contact.Name;
                 gridViewDetails.Rows[1].Cells[1].Value = contact.Number;
                 gridViewDetails.Rows[2].Cells[1].Value = contact.Email;
@@ -152,7 +152,7 @@ namespace DEMO
 
         #region Delete Contact
 
-        private void btnDelete_Click(object sender, EventArgs e)
+        private async void btnDelete_Click(object sender, EventArgs e)
         {
             DialogResult choice = MessageBox.Show(
                 $"Contact \"{CurrentContact.Name}\" Will Be Deleted?",
@@ -163,7 +163,7 @@ namespace DEMO
 
             if (choice == DialogResult.Yes)
             {
-                Result result = cmservice.DeleteContact(CurrentId);
+                Result result = await cmservice.DeleteContactAsync(CurrentId);
                 if (result.IsSuccess)
                     ContactDeleted?.Invoke(this, EventArgs.Empty);
                 else
