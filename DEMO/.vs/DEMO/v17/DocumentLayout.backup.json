@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "DEMO\\Presentation\\UserControls\\ViewDetails.cs",
               "ToolTip": "C:\\Users\\Sadman Shoumik\\Desktop\\Contact-Management\\DEMO\\DEMO\\Presentation\\UserControls\\ViewDetails.cs",
               "RelativeToolTip": "DEMO\\Presentation\\UserControls\\ViewDetails.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAQwEMAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T08:41:25.312Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "ContactManagerClassLibrary\\Infrastructure\\Services\\ContactManagerService.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAQwI4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T07:38:37.814Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T07:38:37.814Z"
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "Test_ContactManager\\UnitTest1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T07:34:16.141Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T07:34:16.141Z"
             }
           ]
         }
