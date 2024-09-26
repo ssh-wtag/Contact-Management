@@ -1,4 +1,5 @@
 using ContactManagerClassLibrary.Domain.Models;
+using ContactManagerClassLibrary.Infrastructure.Interfaces;
 using ContactManagerClassLibrary.Infrastructure.Services;
 using System.Windows.Forms;
 using static DEMO.ViewAll;
@@ -9,9 +10,11 @@ namespace DEMO
     {
         #region Initialization
 
-        private ContactManagerService cmservice;
-        public MainForm()
+        private readonly IContactManager cmservice;
+
+        public MainForm(IContactManager contactManager)
         {
+            cmservice = contactManager;
             InitializeComponent();
 
             HideAll();
@@ -19,6 +22,16 @@ namespace DEMO
 
             viewAll1.Visible = true;
         }
+
+        //public MainForm()
+        //{
+        //    InitializeComponent();
+
+        //    HideAll();
+        //    AttachEvents();
+
+        //    viewAll1.Visible = true;
+        //}
 
         private void AttachEvents()
         {
@@ -31,7 +44,7 @@ namespace DEMO
 
         private async void MainForm_Load(object sender, EventArgs e)
         {
-            cmservice = new ContactManagerService();
+            //cmservice = new ContactManagerService();
             List<Contact> contacts = await cmservice.ShowAllAsync();
             viewAll1.LoadGrid();
             viewAll1.LoadData(contacts);

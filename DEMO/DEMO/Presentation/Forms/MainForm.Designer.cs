@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            viewAll1 = new ViewAll();
-            viewDetails1 = new ViewDetails();
-            addContact1 = new AddContact();
+            viewAll1 = new ViewAll(cmservice);
+            viewDetails1 = new ViewDetails(cmservice);
+            addContact1 = new AddContact(cmservice);
             SuspendLayout();
             // 
             // viewAll1

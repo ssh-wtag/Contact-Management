@@ -1,4 +1,5 @@
 ﻿using ContactManagerClassLibrary.Domain.Models;
+using ContactManagerClassLibrary.Infrastructure.Interfaces;
 using ContactManagerClassLibrary.Infrastructure.Services;
 using System.Data;
 
@@ -12,19 +13,15 @@ namespace DEMO
         private Contact CurrentContact;
         private DataTable dataTable;
 
-        private ContactManagerService cmservice;
+        private readonly IContactManager cmservice;
 
         public EventHandler BackButtonClicked;
         public EventHandler ContactDeleted;
 
-        public ViewDetails()
+        public ViewDetails(IContactManager contactManager)
         {
             InitializeComponent();
-        }
-
-        private void ViewDetails_Load(object sender, EventArgs e)
-        {
-            cmservice = new ContactManagerService();
+            cmservice = contactManager;
         }
 
         public void LoadGrid()
@@ -38,7 +35,6 @@ namespace DEMO
         {
             CurrentId = -1;
             CurrentContact = null;
-            cmservice = null;
 
             gridViewDetails.CellValueChanged -= gridViewDetails_CellValueChanged;
 
@@ -59,7 +55,6 @@ namespace DEMO
         {
             LoadGrid();
 
-            cmservice = new ContactManagerService();
             CurrentContact = await cmservice.GetContactByIdAsync(CurrentId);
 
             dataTable.Rows.Add("Name", CurrentContact.Name);
@@ -200,6 +195,11 @@ namespace DEMO
         #endregion
 
         #region Unused Methods
+
+        private void ViewDetails_Load(object sender, EventArgs e)
+        {
+
+        }
 
         private void lbViewDetails_Click(object sender, EventArgs e)
         {

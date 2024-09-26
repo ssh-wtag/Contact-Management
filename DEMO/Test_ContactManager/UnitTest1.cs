@@ -29,13 +29,14 @@ namespace Test_ContactManager
             {
             }
 
-            cmservice = new ContactManagerService();
-
             var options = new DbContextOptionsBuilder<Context>()
             .UseInMemoryDatabase(databaseName: "TestDatabase")
             .Options;
 
             context = new Context(options);
+
+            cmservice = new ContactManagerService(context);
+
             fixture = new Fixture();
             fixture.Behaviors.Remove(fixture.Behaviors.OfType<ThrowingRecursionBehavior>().First());
             fixture.Behaviors.Add(new OmitOnRecursionBehavior());

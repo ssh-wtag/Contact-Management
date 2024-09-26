@@ -1,4 +1,5 @@
 ﻿using ContactManagerClassLibrary.Domain.Models;
+using ContactManagerClassLibrary.Infrastructure.Interfaces;
 using ContactManagerClassLibrary.Infrastructure.Services;
 
 namespace DEMO
@@ -7,15 +8,15 @@ namespace DEMO
     {
         #region Initialization
 
-        private ContactManagerService cmservice;
+        private readonly IContactManager cmservice;
         public event EventHandler DetailsButtonClicked;
         public event EventHandler AddContactButtonClicked;
         private CancellationTokenSource _cancellationTokenSource;
 
-        public ViewAll()
+        public ViewAll(IContactManager contactManager)
         {
             InitializeComponent();
-            cmservice = new ContactManagerService();
+            cmservice = contactManager;
             _cancellationTokenSource = new CancellationTokenSource();
         }
 

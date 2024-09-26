@@ -13,6 +13,13 @@ namespace ContactManagerClassLibrary.Infrastructure.Services
 {
     public class ContactManagerService : IContactManager
     {
+        private readonly Context _context;
+
+        public ContactManagerService(Context context)
+        {
+            _context = context;
+        }
+
         #region New Asynchronous Methods
 
         public async Task<Result> AddContactAsync(string name, string number, string email, string address, bool[] groups)
@@ -30,50 +37,44 @@ namespace ContactManagerClassLibrary.Infrastructure.Services
                 Groups = new List<Group>()
             };
 
-            using (var _context = new Context())
+            for (int i = 0; i < groups.Length; i++)
             {
-                for (int i = 0; i < groups.Length; i++)
+                if (groups[i])
                 {
-                    if (groups[i])
-                    {
-                        Group? group = await _context.Groups.FindAsync(i + 1);
-                        if(group != null)
-                            newContact.Groups.Add(group);
-                    }
+                    Group? group = await _context.Groups.FindAsync(i + 1);
+                    if(group != null)
+                        newContact.Groups.Add(group);
                 }
+            }
 
-                try
-                {
-                    _context.Contacts.Add(newContact);
-                    await _context.SaveChangesAsync();
-                    return new Result(true);
-                }
-                catch (Exception ex)
-                {
-                    return new Result(true, ex.Message);
-                }
+            try
+            {
+                _context.Contacts.Add(newContact);
+                await _context.SaveChangesAsync();
+                return new Result(true);
+            }
+            catch (Exception ex)
+            {
+                return new Result(true, ex.Message);
             }
         }
 
         public async Task<Result> DeleteContactAsync(int id)
         {
-            using (var _context = new Context())
-            {
-                var contact = await _context.Contacts
-                .Where(c => c.ContactId == id)
-                .Include(c => c.Groups)
-                .FirstOrDefaultAsync();
+            var contact = await _context.Contacts
+            .Where(c => c.ContactId == id)
+            .Include(c => c.Groups)
+            .FirstOrDefaultAsync();
 
-                try
-                {
-                    _context.Contacts.Remove(contact);
-                    await _context.SaveChangesAsync();
-                    return new Result(true);
-                }
-                catch (Exception ex)
-                {
-                    return new Result(false, ex.Message);
-                }
+            try
+            {
+                _context.Contacts.Remove(contact);
+                await _context.SaveChangesAsync();
+                return new Result(true);
+            }
+            catch (Exception ex)
+            {
+                return new Result(false, ex.Message);
             }
         }
 
@@ -83,74 +84,62 @@ namespace ContactManagerClassLibrary.Infrastructure.Services
             if (!fieldResult.IsSuccess)
                 return fieldResult;
 
-            using (var _context = new Context())
+            var contact =  await _context.Contacts.FindAsync(id);
+
+            try
             {
-                var contact =  await _context.Contacts.FindAsync(id);
+                contact.ContactId = id;
+                contact.Name = name;
+                contact.Number = number;
+                contact.Email = email;
+                contact.Address = address;
+                contact.Groups = new List<Group>();
 
-                try
+                for (int i = 0; i < groups.Length; i++)
                 {
-                    contact.ContactId = id;
-                    contact.Name = name;
-                    contact.Number = number;
-                    contact.Email = email;
-                    contact.Address = address;
-                    contact.Groups = new List<Group>();
-
-                    for (int i = 0; i < groups.Length; i++)
+                    if (groups[i])
                     {
-                        if (groups[i])
-                        {
-                            Group? group = await _context.Groups.FindAsync(i + 1);
-                            if (group != null)
-                                contact.Groups.Add(group);
-                        }
+                        Group? group = await _context.Groups.FindAsync(i + 1);
+                        if (group != null)
+                            contact.Groups.Add(group);
                     }
-
-                    _context.Contacts.Update(contact);
-                    await _context.SaveChangesAsync();
-                }
-                catch (Exception ex)
-                {
-                    return new Result(false, ex.Message);
                 }
 
-                return new Result(true);
+                _context.Contacts.Update(contact);
+                await _context.SaveChangesAsync();
             }
+            catch (Exception ex)
+            {
+                return new Result(false, ex.Message);
+            }
+
+            return new Result(true);
         }
 
         public async Task<List<Contact>> SearchContactAsync(string key)
         {
-            using (var _context = new Context())
-            {
-                return await _context.Contacts
-                .Where(c => c.Name.ToLower().Contains(key) || c.Number.Contains(key) || c.Email.Contains(key))
-                .OrderBy(c => c.Name)
-                .ToListAsync();
-            }
+            return await _context.Contacts
+            .Where(c => c.Name.ToLower().Contains(key) || c.Number.Contains(key) || c.Email.Contains(key))
+            .OrderBy(c => c.Name)
+            .ToListAsync();
         }
 
         public async Task<Contact> GetContactByIdAsync(int id)
         {
-            using (var _context = new Context())
-            {
-                Contact? contact = await _context.Contacts
-                .Where(c => c.ContactId == id)
-                .Include(c => c.Groups)
-                .FirstOrDefaultAsync();
+            Contact? contact = await _context.Contacts
+            .Where(c => c.ContactId == id)
+            .Include(c => c.Groups)
+            .FirstOrDefaultAsync();
 
-                return contact;
-            }
+            return contact;
         }
 
         public async Task<List<Contact>> ShowAllAsync()
         {
-            using (var _context = new Context())
-            {
-                return await _context.Contacts
-                .Select(c => c)
-                .OrderBy(c => c.Name)
-                .ToListAsync();
-            }
+            return await _context.Contacts
+            .Select(c => c)
+            .OrderBy(c => c.Name)
+            .ToListAsync();
         }
 
         #endregion

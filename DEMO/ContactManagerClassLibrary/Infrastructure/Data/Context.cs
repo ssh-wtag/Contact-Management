@@ -14,33 +14,33 @@ namespace ContactManagerClassLibrary.Infrastructure.Data
         public DbSet<Contact> Contacts { get; set; }
         public DbSet<Group> Groups { get; set; }
 
-        private readonly string _connectionString;
+        //private readonly string _connectionString;
 
-        public Context() : base()
-        {
-            _connectionString = LoadConnectionString();
-        }
+        //public Context() : base()
+        //{
+        //    _connectionString = LoadConnectionString();
+        //}
 
-        private string LoadConnectionString()
-        {
-            var builder = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("AppSettings.json", optional: false, reloadOnChange: true);
+        //private string LoadConnectionString()
+        //{
+        //    var builder = new ConfigurationBuilder()
+        //        .SetBasePath(Directory.GetCurrentDirectory())
+        //        .AddJsonFile("AppSettings.json", optional: false, reloadOnChange: true);
 
-            IConfiguration configuration = builder.Build();
+        //    IConfiguration configuration = builder.Build();
 
-            return configuration.GetConnectionString("DefaultConnection");
-        }
+        //    return configuration.GetConnectionString("DefaultConnection");
+        //}
 
         public Context(DbContextOptions<Context> options) : base(options) { }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            if (!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseSqlServer(_connectionString)
-                              .UseLazyLoadingProxies();
-            }
+            //if (!optionsBuilder.IsConfigured)
+            //{
+            //    optionsBuilder.UseSqlServer(_connectionString)
+            //                  .UseLazyLoadingProxies();
+            //}
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
