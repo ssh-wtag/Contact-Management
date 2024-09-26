@@ -1,5 +1,6 @@
 ﻿using ContactManagerClassLibrary.Domain.Models;
 using ContactManagerClassLibrary.Infrastructure.Data;
+using ContactManagerClassLibrary.Infrastructure.Interfaces;
 using ContactManagerClassLibrary.Infrastructure.Services;
 
 namespace DEMO
@@ -8,18 +9,17 @@ namespace DEMO
     {
         #region Initialization
 
-        ContactManagerService cmservice;
+        private readonly IContactManager cmservice;
         public EventHandler ContactSaveClicked;
 
-        public AddContact()
+        public AddContact(IContactManager contactManager)
         {
+            cmservice = contactManager;
             InitializeComponent();
         }
 
         public void Reset()
         {
-            cmservice = null;
-
             tbName.Text = string.Empty;
             tbNumber.Text = string.Empty;
             tbEmail.Text = string.Empty;
@@ -60,7 +60,6 @@ namespace DEMO
                 }
             }
 
-            cmservice = new ContactManagerService();
             Result result = await cmservice.AddContactAsync(name, number, email, address, groups);
 
             if (result.IsSuccess)
